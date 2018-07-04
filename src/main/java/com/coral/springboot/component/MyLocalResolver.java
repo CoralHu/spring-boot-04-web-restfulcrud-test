@@ -8,6 +8,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.Locale;
 
+/***
+ * 通过url切换 国际化的语言环境
+ */
 public class MyLocalResolver implements LocaleResolver{
 
     @Override
